@@ -15,6 +15,7 @@ FROM python:3.11-buster AS app
 
 WORKDIR /app
 
+COPY --from=builder /usr /usr
 COPY --from=builder /app /app
 
 EXPOSE 8000
