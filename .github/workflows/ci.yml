@@ -74,6 +74,7 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
+          service_account: 'my-service-account@cs-1660-450723.iam.gserviceaccount.com '
           project_id: 'cs-1660-450723' # update with your project ID
           workload_identity_provider: 'projects/402108316771/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
 
