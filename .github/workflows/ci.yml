@@ -95,4 +95,4 @@ jobs:
           file: ./Dockerfile
           push: true
           
-          tags: us-east5-docker.pkg.dev/cs-1660-450723/cicd1660/fastapi-server:v2
+          tags: us-east5-docker.pkg.dev/cs-1660-450723/cicd1660
